@@ -265,7 +265,7 @@ function openNav(movie) {
         })
         
         var content = `
-        <h1 class="no-results">${movie.original_title}</h1>
+        <h1 class="no-results">${key}</h1>
         <br/>
         
         ${embed.join('')}
