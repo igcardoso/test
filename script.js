@@ -202,7 +202,8 @@ function getMovies(url) {
 
 }
 
-
+if (teste == "true") {
+  
 function showMovies(data) {
     main.innerHTML = '';
 
@@ -237,6 +238,7 @@ function showMovies(data) {
     })
 }
 
+}
 const overlayContent = document.getElementById('overlay-content');
 /* Open when someone clicks on the span element */
 function openNav(movie) {
