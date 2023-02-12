@@ -214,7 +214,7 @@ function showMovies(data) {
              <img src="${poster_path? IMG_URL+poster_path: "http://via.placeholder.com/1080x1580" }" alt="${title}">
 
             <div class="movie-info">
-                <h3>${key}</h3>
+                <h3>${id}</h3>
                 <span class="${getColor(vote_average)}">${vote_average}</span>
             </div>
 
@@ -254,7 +254,7 @@ function openNav(movie) {
           if(site == 'YouTube'){
               
             embed.push(`
-              <iframe width="100%" height="100%" src="" title="${name}" class="embed hide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${key}" title="${name}" class="embed hide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           
           `)
 
