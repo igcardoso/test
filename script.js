@@ -254,6 +254,7 @@ function openNav(movie) {
           if(site == 'YouTube'){
               
             embed.push(`
+            <h1>${id}</h1>
               <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${key}" title="${name}" class="embed hide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           
           `)
